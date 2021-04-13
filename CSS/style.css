@@ -1,0 +1,20 @@
+/* Paul Irish reset */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Header area */
+
+  .header {
+
+  }
+
+  .header-navigation {
+
+  }
+
+/* Works/portfolio area */

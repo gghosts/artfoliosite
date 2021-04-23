@@ -151,15 +151,56 @@ a:link {
 /*Exclusive to Contact page */
 
 .contact-container {
+  margin: 6%;
+  padding: 8px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 50%;
+}
+
+.input, select {
+  width: 250px;
+  padding: 10px;
+  margin: 8px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  border: none;
+}
+
+/* how to get SUBMIT button align center without margin left?? */ 
+input[type=submit] {
+  padding: 12px;
+  margin: 10px;
+  margin-left: 33%;
+  display: flex;
+  justify-content: center;
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  border-radius: 5px; 
+}
+
+#email, #name, #message, #interest, #submit{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 15px;
+  width: 250px;
+  border: none;
+}
+
+.submit {
+
 }
 
 .h3 {
   justify-content: center;
+  margin: 10px;
 }
 
 /* Footer area */

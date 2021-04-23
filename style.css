@@ -7,57 +7,172 @@ html {
     box-sizing: inherit;
   }
 
+  
   /* Header area */
 
   .main-banner {
-    background-color: #FFFFFF;
-    background-image: url("//static1.squarespace.com/static/5a4ed2fe49fc2bd65effc21b/t/5f3478ba01cfd145898efa17/1618770909877/?format=1000w");
-    height: 100px;
-    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
   }
 
-  .header-nav-link {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    text-align: justify;
-    /*
-    flex-basis: 70%;
-    display: flex;
-    justify-content: flex-end; */
+  .logo {
+    height: 50px;
   }
+
+  .logo-img {
+    height: 60px;
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .header {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .header-row {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #707070;
+  }
+    
+  a:hover {
+  color: #000000;
+  }
+
+  a:visited {
+  color: #606060;
+  }
+
+a:link {
+  color: #707070;
+}
+
+  .nav-container {
+    margin: 17px;
+    padding-top: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.7em;
+    font-size: 23px;
+    color: #707070;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* clean up math between margin and width %, make same width as images, also fix it on the collect page*/
+  .page-divider {
+    border-bottom: 1px solid #ddd;
+    margin: 15px;
+    padding-top: 20px;
+    margin-left: 18%;
+    width: 63%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body {
+  background-color: #f1f1f1;
+  color:#707070;
+}
 
 /* Works/portfolio area */
 
 .portfolio-section {
-    margin-top: 5px;
-    padding: 25px 0;
-    height: 750px;
-    color:#000000;
+    /*taken from port container, experiment*/
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
   }
 
 .portfolio-container {
     margin: 25px;
-    margin-right: 25px;
-    height: 300px;
-    width: 100%;
+
+    height: 400px;
+    width: 25%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .portfolio-row {
   margin-top: 8px;
-  margin-bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.h2 {
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+.portfolio-img {
+  height: 350px; 
+  width: 255px;
 }
 
-.h4 {
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+/* Exclusive to Collect page */ 
+
+.sale-section {
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.sale-container {
+  margin: 5px;
+  padding: 5px;
+  height: 200px;
+  width: 25%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sale-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  margin-bottom: 90px;
+}
+
+.sale-img {
+  display: flex;
+  min-width: 260px;
+  height: 260px;
+  padding: 10px;
+}
+
+/*Exclusive to Contact page */
+
+.contact-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.h3 {
+  justify-content: center;
+}
+
+/* Footer area */
+
+.footer {
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-around; 
   
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,5 +1,12 @@
 Artfolio site for a local artist that showcases their portfolio as well as offering shopping capabilities for clients. <br><br>
 
+1. homepage featuring work
+1. info page featuring credentials
+1. contact page with form
+1. collect page with purchasing options
+
+<br><br>
+
 ##User Story (a)<br>
 ##AS THE artist<br>
 ##I WANT TO access my page, request minor and major edits, receive forms from interested clients, receive funds from and shipping details for purchased items.<br>

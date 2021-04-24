@@ -7,38 +7,39 @@ html {
     box-sizing: inherit;
   }
 
-    /* Header area */
+  
+  /* Header area */
 
-    .main-banner {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .logo {
-      height: 50px;
-    }
-  
-    .logo-img {
-      height: 60px;
-      padding: 10px;
-      margin-top: 15px;
-    }
-  
-    .header {
-      margin: 5px;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      
-    }
-  
-    .header-row {
-      margin: 10px;
-      padding: 20px;
-      display: flex;
-      justify-content: space-evenly;
-      color: #707070;
-    }
+  .main-banner {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .logo-img {
+    height: 60px;
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .header {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .header-row {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #707070;
+  }
     
   a:hover {
   color: #000000;
@@ -110,7 +111,6 @@ a:link {
 .portfolio-img {
   height: 350px; 
   width: 255px;
-  cursor:pointer;
 }
 
 /* Exclusive to Collect page */ 
@@ -146,7 +146,6 @@ a:link {
   min-width: 260px;
   height: 260px;
   padding: 10px;
-  cursor:pointer;
 }
 
 /*Exclusive to Contact page */
@@ -195,126 +194,24 @@ input[type=submit] {
   border: none;
 }
 
+.submit {
+
+}
+
 .h3 {
   justify-content: center;
   margin: 10px;
 }
 
-.h4 {
-  justify-content: center;
-  align-content: justify;
-  padding: 5px;
-}
-
-
-.meet-bio {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  padding-top: 10px;
-}
-
-.bio-meat {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  width: 55%;
-  margin-left: 375px;
-
-
-}
-
-.h6 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  font-size: 10px;
-  padding: 10px;
-}
-
-.carousel {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-#carouselExampleControls {
-  width: 50%;
-}
-
-/* Doors Ajar page only */
-
-.doors-img {
-  height: 350px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.doors-sale {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-}
-
-.doors-container {
-  margin: 5px;
-  padding: 5px;
-  height: 200px;
-}
-.doors-row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding-bottom: 10px;
-  margin-bottom: 80px;
-}
-
-.add2cart {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-}
-
-.add-cart {
-  background-color: #474a48;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 15px;
-border-radius: 2px;
-}
-
-/* Why does justify content etc not work? */ 
-.vm-desc {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-self: center;
-  padding: 50px; 
-}
-
-.back {
-padding: 20px; 
-
-}
-
-/* Footer area -- sitewide */
+/* Footer area */
 
 .footer {
   margin: 20px;
   padding: 40px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center; 
+  flex-flow: row wrap; 
+  justify-content: space-around; 
+  
 }
 
 .copyright {

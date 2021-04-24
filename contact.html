@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
   <title>Alison Hilsey - Creative Director </title>
-
   <link rel="stylesheet" type="text/css" href="C:\Users\tabi\Desktop\artPortfolioSite\style.css">
   </head>
 
@@ -31,10 +31,6 @@
             information
           </a></div>
         <div class="nav-container">
-          <a href="C:\Users\tabi\Desktop\artPortfolioSite\CV.html">
-            cv
-          </a></div>
-        <div class="nav-container">
           <a href="C:\Users\tabi\Desktop\artPortfolioSite\contact.html">
             contact
           </a></div>
@@ -47,7 +43,7 @@
     
     <div class="page-divider"></div>
 
-        <!-- Contact form box **make required element *Make success box with reply time -->
+        <!-- Contact form box -->
 
         
     <div class="contact-container">
@@ -55,10 +51,10 @@
             <form action="https://formspree.io/f/xoqyvwgp" method="POST">
           
 
-              <input type="text" id="name" name="name" placeholder="Name">
+              <input type="text" id="name" name="name" placeholder="Name" required>
           
 
-              <input type="text" id="email" name="email" placeholder="Email">
+              <input type="text" id="email" name="email" placeholder="Email" required>
           
               <select id="interest" name="interest">
                 <option value="direction">Select an interest</option>
@@ -69,12 +65,13 @@
               </select>
           
 
-              <textarea id="message" name="message" placeholder="Type message here..." style="height:100px"></textarea>
+              <textarea id="message" name="message" placeholder="Type message here" style="height:100px" required></textarea>
           
               <input type="submit" value="SUBMIT">
           
             </form>
           </div>
+
 
     <!-- Footer area -->
 
@@ -84,4 +81,5 @@
             Copyright &copy; 2021 Alison Hilsey
         </div>
     </footer>
+
     </body>
